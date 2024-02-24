@@ -1,37 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Linktree Clone
+
+## Overview
+
+This project aims to build a minimalistic Linktree clone using Next.js. The primary goal is to provide users with a platform to create a personalized page containing multiple links, which can then be shared with others. Users will have the ability to customize their page's appearance and manage their links efficiently.
+
+## Core Features
+
+- **User Authentication**: Users can create accounts to manage their pages and links.
+- **Page Creation**: Users can create personalized pages to showcase their links.
+- **Link Management**: Users can add, edit, and delete links on their pages.
+- **Customizable Appearance**: Users can customize the appearance of their pages, including color themes.
+- **Sharing**: Pages can be shared with others via custom links (e.g., linktree.com/share/your-page).
+- **Payment Integration**: Certain actions, such as sharing the page or changing its color, may require payment.
+
+## Stack
+
+The project utilizes the following technologies:
+
+- **Component Library**: Shadcn
+- **ORM**: Drizzle powered by SQLite
+- **Authentication**: Lucia
+- **Payments**: Stripe
+
+## Setup
+
+To set up the project, follow these steps:
+
+1. Clone the repository.
+2. Install dependencies using PNPM.
+3. Start the development server.
 
 ## Getting Started
 
-First, run the development server:
+Once the project is set up, users can:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Sign up for an account.
+2. Create their personalized page.
+3. Add links to their page.
+4. Customize the appearance of their page.
+5. Share the page with others.
+6. Perform actions that require payment, such as sharing the page or changing its color.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# RapidLinks
+Enjoy building your personalized Linktree clone!
