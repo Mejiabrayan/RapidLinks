@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1708707754861,
+      "tag": "0000_new_hardball",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1708708858445,
+      "tag": "0001_bitter_king_bedlam",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1708717903788,
+      "tag": "0002_skinny_gladiator",
+      "breakpoints": true
+    }
+  ]
+}
